@@ -6,4 +6,4 @@ SET ICON="res/icon.ico"
 SET INTERNAL_URLS=".*?"
 SET BUILD_PATH="out"
 
-nativefier -u %AGENT% -n %NAME% %URL% --tray "true" --enable-es3-apis --file-download-options "{/"saveas/": true}" --interlal-urls %INTERNAL_URLS% %BUILD_PATH% 
+nativefier -u %AGENT% -n %NAME% %URL% --tray "true" --enable-es3-apis --file-download-options "{/"saveas/": true}" --icon %ICON% --interlal-urls %INTERNAL_URLS% %BUILD_PATH% 
