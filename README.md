@@ -24,7 +24,7 @@ The following instructions will explain how to use these scripts.
 
 ### MacOS
 
-1. Download and install the latest stable release of NodeJS. You can do this easily by using NVM [NVM][NVM_HOMEBREW].
+1. Download and install the latest stable release of NodeJS. You can do this easily by using [NVM][NVM_HOMEBREW].
 2. After installing NodeJS, open your terminal and run `npm install -g nativefier -y`.
 3. Once that has finished, run the following commands in your terminal.
  ```sh
