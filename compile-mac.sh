@@ -2,7 +2,7 @@ NAME='Virtual Customs'
 URL='https://virtualcustoma.net'
 USER_AGENT=firefox
 INTERNAL_URLS='.*?'
-ICON='res/icon.png'
+ICON='res/icon.icns'
 CSS='res/site.css'
 BUILD_PATH='out'
 
