@@ -6,4 +6,4 @@ INTERNAL_URLS='.*?'
 ICON='res/icon.png'
 BUILD_PATH='./out'
 
-nativefier -u $USER_AGENT$ -n $NAME$ $URL$ --tray 'true' --enable-es3-apis --icon $ICON$ --file-download-options '{"saveas": true}' --internal-urls $INTERNAL_URLS$ $BUILD_PATH$
+nativefier -u $USER_AGENT$ -n $NAME$ $URL$ --tray 'true' --enable-es3-apis --background-color $BGCOLOR$ --icon $ICON$ --file-download-options '{"saveas": true}' --internal-urls $INTERNAL_URLS$ $BUILD_PATH$
