@@ -1,3 +1,5 @@
+ECHO OFF
+
 SET NAME="Virtual Customs"
 SET URL="https://virtualcustoms.net"
 SET USER_AGENT=firefox
