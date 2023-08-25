@@ -11,7 +11,7 @@ The following instructions will explain how to use these scripts.
  ```sh
  npm install -g yarn -y
  yarn install
- yarn run build-windows
+ yarn build-windows
  ```
 3. Once complete, your compiled app should be located in the `out` folder. Simply move your app's own folder to wherever you want and run the contained `Virtual Customs.exe` file to launch your app.
 
@@ -22,7 +22,7 @@ The following instructions will explain how to use these scripts.
  ```sh
  npm install -g yarn -y
  yarn install
- yarn run build-linux
+ yarn build-linux
  ```
 3. Once compiled your app should be located in the `out` folder. Simply move the your app's own folder wherever you want and run the contained `VirtualCustoms` file to launch your new app.
 
@@ -33,7 +33,7 @@ The following instructions will explain how to use these scripts.
  ```sh
  npm install -g yarn -y
  yarn install
- yarn run build-darwin
+ yarn build-darwin
  ```
 3. Once compiled, your app should be located in the `out` folder. Simply move the `Virtual Customs.app` file to your `Applications` folder to make it visible in your Finder and double click it to grant it permission to run. (Note: Due to Apple security policies, you may need to register for an apple developer account to run this app on your MacOS.)
 
